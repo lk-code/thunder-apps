@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thunder.Apps.SQL.Skia.Linux
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Thunder.App.Sql", "Thunder.App.Sql", "{FC476616-CEB7-4A62-A50B-232A15855948}"
 EndProject
-Project("{9aaf5bd8-2c27-4ae1-90a1-ce6abac533fc}") = "Thunder.Apps.Core.Shared", "Thunder.Apps.Core\Thunder.Apps.Core.Shared.shproj", "{5f52bc5d-0ae7-4c39-9959-a9d4204cfcd6}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Thunder.Apps.Core.Shared", "Thunder.Apps.Core\Thunder.Apps.Core.Shared.shproj", "{5F52BC5D-0AE7-4C39-9959-A9D4204CFCD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +41,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|ARM.Build.0 = Debug|Any CPU
 		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|ARM.Deploy.0 = Debug|Any CPU
@@ -69,6 +70,7 @@ Global
 		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Release|x86.Deploy.0 = Release|Any CPU
 		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|Any CPU.Build.0 = Debug|x86
+		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|ARM.ActiveCfg = Debug|ARM
 		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|ARM.Build.0 = Debug|ARM
 		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -167,12 +169,21 @@ Global
 		{1AE798C6-9F24-4698-A1C6-09EFC474B089} = {FC476616-CEB7-4A62-A50B-232A15855948}
 		{2F714653-968F-4BC8-9541-77725884324C} = {FC476616-CEB7-4A62-A50B-232A15855948}
 	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91BE8B7A-6651-4964-A86F-200D8BD2D0B5}
+	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems*{1ae798c6-9f24-4698-a1c6-09efc474b089}*SharedItemsImports = 5
 		Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems*{1ae798c6-9f24-4698-a1c6-09efc474b089}*SharedItemsImports = 5
+		Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems*{24f66e54-76e2-48ad-a3af-47b7ea5c9f6d}*SharedItemsImports = 4
 		Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems*{24f66e54-76e2-48ad-a3af-47b7ea5c9f6d}*SharedItemsImports = 4
+		Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems*{2f714653-968f-4bc8-9541-77725884324c}*SharedItemsImports = 5
 		Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems*{2f714653-968f-4bc8-9541-77725884324c}*SharedItemsImports = 5
+		Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems*{5f33a027-39da-4440-a62c-3f9c8d175a24}*SharedItemsImports = 5
 		Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems*{5f33a027-39da-4440-a62c-3f9c8d175a24}*SharedItemsImports = 5
+		Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems*{5f52bc5d-0ae7-4c39-9959-a9d4204cfcd6}*SharedItemsImports = 13
 		Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems*{a5dbd93a-eaee-4851-86f6-57167f68a9a3}*SharedItemsImports = 5
 		Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems*{a5dbd93a-eaee-4851-86f6-57167f68a9a3}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
