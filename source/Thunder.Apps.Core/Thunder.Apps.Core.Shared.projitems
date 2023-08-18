@@ -6,24 +6,21 @@
 		<SharedGUID>6279c845-92f8-4333-ab99-3d213163593c</SharedGUID>
 	</PropertyGroup>
 	<PropertyGroup Label="Configuration">
-		<Import_RootNamespace>Thunder.Apps.SQL</Import_RootNamespace>
+		<Import_RootNamespace>Thunder.Apps.Core</Import_RootNamespace>
 	</PropertyGroup>
 	<ItemGroup>
-		<Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
-			<DependentUpon>MainPage.xaml</DependentUpon>
+		<Compile Include="$(MSBuildThisFileDirectory)ShellPage.xaml.cs">
+			<DependentUpon>ShellPage.xaml</DependentUpon>
 		</Compile>
 	</ItemGroup>
 	<ItemGroup>
-		<Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+		<Page Include="$(MSBuildThisFileDirectory)ShellPage.xaml">
 			<SubType>Designer</SubType>
 			<Generator>MSBuild:Compile</Generator>
 		</Page>
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="$(MSBuildThisFileDirectory)Assets\SharedAssets.md" />
-	</ItemGroup>
-	<ItemGroup>
-		<PRIResource Include="$(MSBuildThisFileDirectory)Strings\en\Resources.resw" />
 	</ItemGroup>
   <ItemGroup>
 	<!--

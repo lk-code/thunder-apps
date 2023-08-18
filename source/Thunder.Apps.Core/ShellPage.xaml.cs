@@ -20,9 +20,9 @@ namespace Thunder.Apps.SQL
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
-	public sealed partial class MainPage : Page
+	public sealed partial class ShellPage : Page
 	{
-		public MainPage()
+		public ShellPage()
 		{
 			this.InitializeComponent();
 		}
