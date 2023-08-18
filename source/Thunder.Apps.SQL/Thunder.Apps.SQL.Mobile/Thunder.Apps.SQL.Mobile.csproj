@@ -61,4 +61,5 @@
     </When>
   </Choose>
   <Import Project="..\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems" Label="Shared" Condition="Exists('..\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems')" />
+  <Import Project="..\..\Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems" Label="Shared" />
 </Project>
