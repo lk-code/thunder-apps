@@ -18,11 +18,25 @@
     <RuntimeIdentifier Condition="'$(TargetFramework)' == 'net6.0-maccatalyst'">maccatalyst-x64</RuntimeIdentifier>
     <RuntimeIdentifier Condition="'$(TargetFramework)' == 'net6.0-macos'">osx-x64</RuntimeIdentifier>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-maccatalyst|AnyCPU'">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Uno.UI" Version="4.9.17" />
     <PackageReference Include="Uno.UI.RemoteControl" Version="4.9.17" Condition="'$(Configuration)'=='Debug'" />
     <PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.9.17" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Update="MacCatalyst\Resources\Default-568h%402x.png">
+      <Link>Default-568h%402x.png</Link>
+    </BundleResource>
+    <BundleResource Update="MacCatalyst\Resources\SplashScreen%403x.png">
+      <Link>SplashScreen%403x.png</Link>
+    </BundleResource>
+    <BundleResource Update="MacCatalyst\Resources\SplashScreen%402x.png">
+      <Link>SplashScreen%402x.png</Link>
+    </BundleResource>
   </ItemGroup>
   <Choose>
     <When Condition="'$(TargetFramework)'=='net6.0-maccatalyst'">
