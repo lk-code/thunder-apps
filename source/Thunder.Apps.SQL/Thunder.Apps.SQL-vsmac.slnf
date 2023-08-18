@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "path": "Thunder.Apps.SQL.sln",
+    "projects": [
+		"Thunder.Apps.SQL.Shared\\Thunder.Apps.SQL.Shared.shproj",
+
+		"Thunder.Apps.SQL.Mobile\\Thunder.Apps.SQL.Mobile.csproj",
+
+		"Thunder.Apps.SQL.Wasm\\Thunder.Apps.SQL.Wasm.csproj",
+
+		"Thunder.Apps.SQL.Skia.Gtk\\Thunder.Apps.SQL.Skia.Gtk.csproj",
+
+		"Thunder.Apps.SQL.Skia.Linux.FrameBuffer\\Thunder.Apps.SQL.Skia.Linux.FrameBuffer.csproj",
+    ]
+  }
+}

@@ -1,14 +1,49 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{8A670C0B-FD28-44DE-9F8D-97093D1CC26C}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Thunder.Apps.SQL.Shared", "Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thunder.Apps.SQL.Mobile", "Thunder.Apps.SQL\Thunder.Apps.SQL.Mobile\Thunder.Apps.SQL.Mobile.csproj", "{5F33A027-39DA-4440-A62C-3F9C8D175A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thunder.Apps.SQL.Uwp", "Thunder.Apps.SQL\Thunder.Apps.SQL.UWP\Thunder.Apps.SQL.Uwp.csproj", "{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thunder.Apps.SQL.Skia.Gtk", "Thunder.Apps.SQL\Thunder.Apps.SQL.Skia.Gtk\Thunder.Apps.SQL.Skia.Gtk.csproj", "{A5DBD93A-EAEE-4851-86F6-57167F68A9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thunder.Apps.SQL.Skia.Wpf", "Thunder.Apps.SQL\Thunder.Apps.SQL.Skia.WPF\Thunder.Apps.SQL.Skia.Wpf.csproj", "{1AE798C6-9F24-4698-A1C6-09EFC474B089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thunder.Apps.SQL.Skia.Linux.FrameBuffer", "Thunder.Apps.SQL\Thunder.Apps.SQL.Skia.Linux.FrameBuffer\Thunder.Apps.SQL.Skia.Linux.FrameBuffer.csproj", "{2F714653-968F-4BC8-9541-77725884324C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F33A027-39DA-4440-A62C-3F9C8D175A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Debug|Any CPU.Build.0 = Debug|x86
+		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Release|Any CPU.ActiveCfg = Release|x86
+		{24F66E54-76E2-48AD-A3AF-47B7EA5C9F6D}.Release|Any CPU.Build.0 = Release|x86
+		{A5DBD93A-EAEE-4851-86F6-57167F68A9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DBD93A-EAEE-4851-86F6-57167F68A9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DBD93A-EAEE-4851-86F6-57167F68A9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DBD93A-EAEE-4851-86F6-57167F68A9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE798C6-9F24-4698-A1C6-09EFC474B089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE798C6-9F24-4698-A1C6-09EFC474B089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE798C6-9F24-4698-A1C6-09EFC474B089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE798C6-9F24-4698-A1C6-09EFC474B089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F714653-968F-4BC8-9541-77725884324C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F714653-968F-4BC8-9541-77725884324C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F714653-968F-4BC8-9541-77725884324C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F714653-968F-4BC8-9541-77725884324C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
