@@ -24,6 +24,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thunder.Apps.SQL.Skia.Linux.FrameBuffer", "Thunder.Apps.SQL.Skia.Linux.FrameBuffer\Thunder.Apps.SQL.Skia.Linux.FrameBuffer.csproj", "{761D821E-9905-4444-9ADF-76C995FE5427}"
 EndProject
 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thunder.Apps.SQL.WinUI", "Thunder.Apps.SQL\Thunder.Apps.SQL.WinUI\Thunder.Apps.SQL.WinUI.csproj", "{1984AF9C-EA0D-41D2-A74E-4CFEB3E2C903}"
+EndProject
+
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems*{86B3C49F-9976-44D5-B527-252C5178C59C}*SharedItemsImports = 4

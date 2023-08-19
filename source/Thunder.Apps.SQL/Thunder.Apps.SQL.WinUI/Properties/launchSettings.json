@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Thunder.Apps.SQL.WinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Thunder.Apps.SQL.WinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
