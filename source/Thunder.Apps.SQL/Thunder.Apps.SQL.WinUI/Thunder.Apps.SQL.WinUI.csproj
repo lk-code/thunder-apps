@@ -48,4 +48,11 @@
 	</PropertyGroup>
 	<Import Project="..\Thunder.Apps.SQL.Shared\Thunder.Apps.SQL.Shared.projitems" Label="Shared" />
 	<Import Project="..\..\Thunder.Apps.Core\Thunder.Apps.Core.Shared.projitems" Label="Shared" />
+	<ItemGroup>
+	  <ApplicationDefinition Remove="C:\Repos\lk-code\thunder-apps\source\Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\App.xaml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Page Remove="C:\Repos\lk-code\thunder-apps\source\Thunder.Apps.Core\ShellPage.xaml" />
+	  <Page Remove="C:\Repos\lk-code\thunder-apps\source\Thunder.Apps.SQL\Thunder.Apps.SQL.Shared\MainPage.xaml" />
+	</ItemGroup>
 </Project>

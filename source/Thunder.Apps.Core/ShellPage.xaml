@@ -8,78 +8,10 @@
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="32" />
-            <RowDefinition Height="48" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-
-        <Grid Grid.Row="0"
-              x:Name="AppTitleBar">
-            <Image Source="/Assets/WindowIcon.ico"
-                   HorizontalAlignment="Left"
-                   Width="16"
-                   Height="16"
-                   Margin="8,0" />
-            <TextBlock x:Name="AppTitleBarText"
-                       VerticalAlignment="Center"
-                       TextWrapping="NoWrap"
-                       Style="{StaticResource CaptionTextBlockStyle}"
-                       Margin="32, 0, 0, 0" />
-        </Grid>
-
-        <Grid Grid.Row="1">
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
-
-            <AppBarButton Grid.Column="0"
-                          Command="{Binding MenuViewsThunderRestAppCommand}">
-
-                <ImageIcon Margin="-12"
-                           Source="/Assets/vs_icon_source_400px.png" />
-
-            </AppBarButton>
-
-            <MenuBar Grid.Column="1">
-                <MenuBarItem x:Uid="ShellMenuBarItem_File">
-                    <MenuFlyoutItem x:Uid="ShellMenuItem_File_Exit"
-                                    Command="{Binding MenuFileExitCommand}" />
-                </MenuBarItem>
-            </MenuBar>
-
-            <AppBarButton Grid.Column="2"
-                          x:Name="ShellMenuBarSettingsButton"
-                          x:Uid="ShellMenuBarSettingsButton"
-                          AnimatedIcon.State="Normal"
-                          PointerEntered="ShellMenuBarSettingsButton_PointerEntered"
-                          PointerExited="ShellMenuBarSettingsButton_PointerExited"
-                          Command="{Binding MenuSettingsCommand}">
-
-                <AnimatedIcon x:Name="ShellMenuBarSettingsButtonIcon">
-                    <AnimatedIcon.Source>
-                        <animatedvisuals:AnimatedSettingsVisualSource />
-                    </AnimatedIcon.Source>
-                    <AnimatedIcon.FallbackIconSource>
-                        <FontIconSource FontFamily="{StaticResource SymbolThemeFontFamily}"
-                                        Glyph="&#xE713;" />
-                    </AnimatedIcon.FallbackIconSource>
-                </AnimatedIcon>
-
-            </AppBarButton>
-
-        </Grid>
-
-        <Grid Grid.Row="2">
-            <Frame x:Name="NavigationFrame" />
-        </Grid>
-
+        <TextBlock Text="ShellPage"
+                   Margin="20"
+                   FontSize="30" />
     </Grid>
-
 </Page>
 
 
